@@ -1,0 +1,88 @@
+/* @font-face {
+	font-family: 'Inter-Regular';
+	src: url('../fons/Inter-Regular.ttf');
+} */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	/* font-family: 'Inter-Regular'; */
+	font-family: 'inter';
+	font-weight: 400;
+
+}
+
+
+/* .screen_conteyner{
+	display: flex;
+	justify-content: center;
+	width: 10px;
+	height: 10px;
+	margin: auto;
+	align-items: center;
+	height: 100vh
+	
+} */
+
+.a{
+	color: aqua;
+}
+.screen{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	align-items: center;
+}
+
+.screen_links{
+	display: flex;
+	justify-content: space-between;
+	min-width: 209px;
+	width: 20%;
+	max-width: 208px;
+	max-width: 50%;
+}
+
+
+.screen1{
+		background-image: url(../img/figurescreen1.jpg);
+    	background-position: top;
+		background-repeat: no-repeat;
+		background-color: #fafafa
+}
+
+.screen_2 {
+	color: #fafafa;
+}
+
+.tagline{
+	color: #fafafa;
+}
+
+
+.screen2{
+	background-image: url(../img/iPhonescreen.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.white_tex{
+	color: #fafafa;
+}
+
+.watch_links{
+   display: flex;
+   justify-content:space-between;
+   min-width: 209px;
+   width: 20%;
+   max-width: 209px;
+   max-width: 50%;
+}
+
+
+.screen3{
+	background-image: url(../img/watchscreen.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
